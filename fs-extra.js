@@ -1,0 +1,1 @@
+Fse      = Npm.require('fs-extra');
