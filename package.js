@@ -1,5 +1,5 @@
-const version = '0.26.2';
-
+const version = '0.26.3';
+const npmVersion = '0.26.2';
 Package.describe({
   name: 'akasha:fs-extra',
   version: version,
@@ -12,7 +12,7 @@ Package.describe({
   documentation: 'README.md'
 });
 Npm.depends({
-  'fs-extra': version
+  'fs-extra': npmVersion
 });
 
 Package.onUse(function(api) {
